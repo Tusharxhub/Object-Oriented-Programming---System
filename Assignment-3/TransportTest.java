@@ -1,62 +1,54 @@
-//! Define a class transport with variable transport and name define the class road transport water transport air transport that are the children of class transport which distinct single variable in each class define the show method in each of the child classes to display the record of each type of transport
+//! wap in java to define a class Transport with child class of roadT.Both the classes have a single variable. Use constructor to initialize all the variables and constructor.RoadT has two children Bus and car with single veriable in each class.Bus and car contain constructor to initialize the object and show method to display the record of Bus and car.
 
 class Transport {
-    String transport;
-    String name;
+    String mode;
 
-    Transport(String transport, String name) {
-        this.transport = transport;
-        this.name = name;
+    Transport(String mode) {
+        this.mode = mode;
     }
 }
 
-class Road extends Transport {
-    int wheels;
+class RoadT extends Transport {
+    int roadnumber;
 
-    Road(String transport, String name, int wheels) {
-        super(transport, name);
-        this.wheels = wheels;
-    }
-
-    void show() {
-        System.out.println("Road Transport: " + name + ", Wheels: " + wheels);
+    RoadT(String mode, int roadnumber) {
+        super(mode);
+        this.roadnumber = roadnumber;
     }
 }
 
-class Water extends Transport {
-    int capacity;
+class Bus extends RoadT {
+    int busNumber;
 
-    Water(String transport, String name, int capacity) {
-        super(transport, name);
-        this.capacity = capacity;
+    Bus(String mode, int roadnumber, int busNumber) {
+        super(mode, roadnumber);
+        this.busNumber = busNumber;
     }
 
     void show() {
-        System.out.println("Water Transport: " + name + ", Capacity: " + capacity + " tons");
+        System.out.println("Model: " + mode + ", Road No: " + roadnumber + ", Bus No: " + busNumber);
     }
 }
 
-class Air extends Transport {
-    int maxAltitude;
+class Car extends RoadT {
+    String model;
 
-    Air(String transport, String name, int maxAltitude) {
-        super(transport, name);
-        this.maxAltitude = maxAltitude;
+    Car(String mode, int roadnumber, String model) {
+        super(mode, roadnumber);
+        this.model = model;
     }
 
     void show() {
-        System.out.println("Air Transport: " + name + ", Max Altitude: " + maxAltitude + " feets");
+        System.out.println("Model: " + mode + ", Road No: " + roadnumber + ", Car Model: " + model);
     }
 }
 
 public class TransportTest {
     public static void main(String[] args) {
-        Road road1 = new Road("Road", "Car", 4);
-        Water water1 = new Water("Water", "Ship", 500);
-        Air air1 = new Air("Air", "Aeroplane", 35000);
+        Bus bus = new Bus("Road", 101, 555);
+        Car car = new Car("Road", 102, "Tesla");
 
-        road1.show();
-        water1.show();
-        air1.show();
+        bus.show();
+        car.show();
     }
 }
