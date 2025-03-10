@@ -28,7 +28,6 @@ public class animalX {
         Dog dog1 = new Dog("Domestic", "Labrador", "Bruno");
         Dog dog2 = new Dog("Wild", "Husky", "Max");
 
-        // Displaying Dog details
         dog1.display();
         dog2.display();
     }
