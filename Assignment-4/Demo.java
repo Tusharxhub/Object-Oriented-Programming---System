@@ -21,7 +21,7 @@ public class Demo {
         }
 
         public void displayDetails() {
-            System.out.println("Car: " + name + ", " + year + ", " + price);
+            System.out.println("Car: " + name + ", Year: " + year + ", Price: $" + price);
         }
 
         public void drive() {
@@ -41,7 +41,7 @@ public class Demo {
         }
 
         public void displayDetails() {
-            System.out.println("Bike: " + name + ", " + year + ", " + price);
+            System.out.println("Bike: " + name + ", Year: " + year + ", Price: $" + price);
         }
 
         public void drive() {
@@ -61,7 +61,7 @@ public class Demo {
         }
 
         public void displayDetails() {
-            System.out.println("Truck: " + name + ", " + year + ", " + price);
+            System.out.println("Truck: " + name + ", Year: " + year + ", Price: $" + price);
         }
 
         public void drive() {
