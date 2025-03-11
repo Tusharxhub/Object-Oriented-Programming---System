@@ -2,10 +2,8 @@
 
 package P1;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         System.out.println("Tushar");
     }
 }
@@ -14,4 +12,5 @@ public class Main
 
 // ? to compile the program, use the following command:
 //? javac P1/Main.java
-// ? java P1.Main
+// ? to run the program, use the following command:
+//? java P1.Main
