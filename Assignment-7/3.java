@@ -1,2 +1,0 @@
-//! Write a Java program to define the classes Add, Sub, Division, Mod, and are child classes of an abstract class. All the classes have two member variables which are initialized using constructor of respective classes. Each class has to be set based on the priority of user choice. Depending on the priority, the given method of each class will be invoked and print the respective result of operation.
-
