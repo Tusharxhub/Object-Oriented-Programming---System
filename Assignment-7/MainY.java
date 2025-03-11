@@ -1,5 +1,7 @@
 //! Wap in java to define the classes add, sub, division, mod are child classes of the thread class. All the classes have two member variables which are initialized using constructor of respective classes. Priority of each class has to be set based on user choice. Depending on the priority the run method of each classes will be invoked and print the respective result of operation.
 
+
+
 import java.util.Scanner;
 
 class Operation extends Thread {
