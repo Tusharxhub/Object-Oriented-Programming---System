@@ -24,6 +24,7 @@ class Operation extends Thread {
 
 public class MainY {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter two numbers: ");
         int a = sc.nextInt(), b = sc.nextInt();
