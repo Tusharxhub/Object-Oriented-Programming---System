@@ -16,3 +16,9 @@ public class Main {
         System.out.println("Patient Name: " + patient.getPatientName());
     }
 }
+
+
+//? To compile the program, use the following command:
+//? javac -d . ../Doctor/Doctor_details.java Patient_details.java Main.java
+//? To run the program, use the following command:
+//? java Patient.Main
