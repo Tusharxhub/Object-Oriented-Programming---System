@@ -1,4 +1,4 @@
-//! Write a prog in java to define two classes which implements runnable interface. Print the sum series in the run method of AP class and print the multiple series in the run method of GP class. Create objects of both the classes in main method and display the series.
+//! Wap in java to define two classes which implements runnable interface. Print the sum series in the run method of AP class and print the multiple series in the run method of GP class. Create objects of both the classes in main method and display the series.
 
 class AP implements Runnable {
     int n;
