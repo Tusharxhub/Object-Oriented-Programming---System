@@ -1,17 +1,20 @@
-# 🚀 Object-Oriented Programming - System
+Here’s your updated README file, formatted as per your current structure and improved for clarity.  
 
-Welcome to the **Object-Oriented Programming - System** repository! This project is designed to provide a comprehensive understanding of OOP principles, best practices, and real-world implementations.
+---
 
-## 📋 Overview
+# 🚀 Object-Oriented Programming - System  
 
-This repository covers:
+Welcome to the **Object-Oriented Programming - System** repository! This project is designed to provide a comprehensive understanding of **OOP principles, best practices, and real-world implementations** using **Java**.  
 
-- 🌟 Core OOP Concepts (Classes, Objects, Encapsulation, Inheritance, Polymorphism, and Abstraction)
-- 🛠️ Hands-on examples and code snippets
-- 🔥 Real-world project applications
-- 📚 Well-documented code with clear explanations
+## 📋 Overview  
 
-## 📂 Project Structure
+This repository covers:  
+- 🌟 **Core OOP Concepts** (Classes, Objects, Encapsulation, Inheritance, Polymorphism, Abstraction)  
+- 🛠️ **Hands-on examples and code snippets**  
+- 🔥 **Real-world project applications**  
+- 📚 **Well-documented code with clear explanations**  
+
+## 📂 Project Structure  
 
 ```
 📦 Object-Oriented-Programming---System
@@ -25,44 +28,47 @@ This repository covers:
  ┗ 📄 README.md
 ```
 
-## 💻 Getting Started
+## 💻 Getting Started  
 
-Follow these steps to set up and run the project locally:
+Follow these steps to set up and run the project locally:  
 
-1. **Clone the Repository**
+1. **Clone the Repository**  
    ```bash
    git clone https://github.com/Tusharxhub/Object-Oriented-Programming---System.git
    ```
-2. **Navigate to the Directory**
+2. **Navigate to the Directory**  
    ```bash
    cd Object-Oriented-Programming---System
    ```
-3. **Compile the Code**
+3. **Compile the Code**  
    ```bash
-   javac src/**/*.java
+   javac -d bin src/**/*.java
    ```
-4. **Run the Program**
+4. **Run the Program**  
    ```bash
-   java src.Main
+   java -cp bin Main
    ```
 
-## 🔍 Key Features
+## 🔍 Key Features  
 
-✅ Comprehensive code comments for better understanding\
-✅ Real-life examples for better concept clarity\
-✅ Clean and organized folder structure\
-✅ Beginner-friendly with step-by-step guidance
+✅ **Comprehensive code comments** for better understanding  
+✅ **Real-life examples** for better concept clarity  
+✅ **Clean and organized folder structure**  
+✅ **Beginner-friendly** with step-by-step guidance  
 
-## 🤝 Contributing
+## 🤝 Contributing  
 
-Contributions are welcome! If you have any ideas, improvements, or bug fixes, feel free to submit a pull request.
+Contributions are welcome! If you have any ideas, improvements, or bug fixes, feel free to **submit a pull request**.  
 
-## 📧 Contact
+## 📧 Contact  
 
-For queries, collaboration, or feedback, reach out to me:\
-📧 [*Email*](mailto:t.k.d.dey2033929837@gmail.com)\
-🔗 *[GitHub](https://github.com/Tusharxhub)*\
-📸 *[Instagram](https://www.instagram.com/tushardevx01/)*
+For queries, collaboration, or feedback, reach out to me:  
+📧 [*Email*](mailto:t.k.d.dey2033929837@gmail.com)  
+🔗 [*GitHub*](https://github.com/Tusharxhub)  
+📸 [*Instagram*](https://www.instagram.com/tushardevx01/)  
 
-Happy Coding! 🎯
+**Happy Coding!** 🎯  
 
+---
+
+Let me know if you want any further modifications! 🚀😊
