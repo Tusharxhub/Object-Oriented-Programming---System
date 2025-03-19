@@ -1,7 +1,9 @@
 //! write a java program to define a class To-Do-List that consists of a member variable task in a vector type. the methods are 1:- addTask() to get input from user and add to the task vector. 2:- showTask() to show each task in a tabular format with serial number. 3:- insertTask() to insert a new task at given index by the user. 4:- delTask() to delete the specific task given by the user.After insertTask and delTask call showTask .
 
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 import java.util.Vector;
 
 public class ToDoList {
@@ -11,28 +13,27 @@ public class ToDoList {
         tasks = new Vector<>();
     }
 
-    public void addTask() {
-        Scanner scanner = new Scanner(System.in);
+    public void addTask() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter a new task: ");
-        String task = scanner.nextLine();
+        String task = reader.readLine();
         tasks.add(task);
     }
 
     public void showTasks() {
-        System.out.println("To-Do List:");
-        System.out.println("-----------");
+        System.out.println("To-Do List: ");
         for (int i = 0; i < tasks.size(); i++) {
-            System.out.println((i + 1) + ". " + tasks.get(i));
+            System.out.print((i + 1) + ". " + tasks.get(i) + " ");
         }
+        System.out.println("\n-----------");
     }
 
-    public void insertTask() {
-        Scanner scanner = new Scanner(System.in);
+    public void insertTask() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter the index to insert the task: ");
-        int index = scanner.nextInt();
-        scanner.nextLine(); 
+        int index = Integer.parseInt(reader.readLine());
         System.out.print("Enter the new task: ");
-        String task = scanner.nextLine();
+        String task = reader.readLine();
         if (index >= 0 && index <= tasks.size()) {
             tasks.add(index, task);
         } else {
@@ -41,10 +42,10 @@ public class ToDoList {
         showTasks();
     }
 
-    public void delTask() {
-        Scanner scanner = new Scanner(System.in);
+    public void delTask() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter the index of the task to delete: ");
-        int index = scanner.nextInt();
+        int index = Integer.parseInt(reader.readLine());
         if (index >= 0 && index < tasks.size()) {
             tasks.remove(index);
         } else {
@@ -53,9 +54,9 @@ public class ToDoList {
         showTasks();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ToDoList toDoList = new ToDoList();
-        Scanner scanner = new Scanner(System.in);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while (true) {
             System.out.println("1. Add Task");
             System.out.println("2. Show Tasks");
@@ -63,7 +64,7 @@ public class ToDoList {
             System.out.println("4. Delete Task");
             System.out.println("5. Exit");
             System.out.print("Choose an option: ");
-            int choice = scanner.nextInt();
+            int choice = Integer.parseInt(reader.readLine());
             switch (choice) {
                 case 1:
                     toDoList.addTask();
