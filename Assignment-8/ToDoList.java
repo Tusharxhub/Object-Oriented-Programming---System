@@ -1,4 +1,9 @@
-//! write a java program to define a class To-Do-List that consists of a member variable task in a vector type. the methods are 1:- addTask() to get input from user and add to the task vector. 2:- showTask() to show each task in a tabular format with serial number. 3:- insertTask() to insert a new task at given index by the user. 4:- delTask() to delete the specific task given by the user.After insertTask and delTask call showTask .
+//! write a java program to define a class To-Do-List that consists of a member variable task in a vector type. the methods are 
+//! 1:- addTask() to get input from user and add to the task vector.
+//! 2:- showTask() to show each task in a tabular format with serial number.
+//! 3:- insertTask() to insert a new task at given index by the user.
+//! 4:- delTask() to delete the specific task given by the user.
+//! After insertTask and delTask call showTask .
 
 
 import java.io.BufferedReader;
