@@ -1,7 +1,3 @@
-Here’s your updated README file, formatted as per your current structure and improved for clarity.  
-
----
-
 # 🚀 Object-Oriented Programming - System  
 
 Welcome to the **Object-Oriented Programming - System** repository! This project is designed to provide a comprehensive understanding of **OOP principles, best practices, and real-world implementations** using **Java**.  
@@ -68,5 +64,3 @@ For queries, collaboration, or feedback, reach out to me:
 📸 [*Instagram*](https://www.instagram.com/tushardevx01/)  
 
 **Happy Coding!** 🎯  
-
----
