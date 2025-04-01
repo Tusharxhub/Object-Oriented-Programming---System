@@ -1,5 +1,4 @@
-package Message;
-//! wap to enter a java applet program to print a message
+//! wap in java to enter a java applet program to print a message
 
 
 
