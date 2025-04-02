@@ -29,3 +29,27 @@ public class EmployeeDatabase {
         }
     }
 }
+
+
+
+
+
+
+
+//? This program connects to a MySQL database named "tushar" and retrieves employee records from the "employees" table.
+//? It uses JDBC to establish the connection, execute a SQL query, and display the results in a formatted manner.
+//? The program handles exceptions and ensures that resources are closed after use.
+//? Make sure to replace the database URL, username, and password with your own credentials before running the program.
+//? Also, ensure that the MySQL JDBC driver is included in your classpath.
+
+
+
+
+//? To run this program, you need to have the MySQL JDBC driver in your classpath.
+
+
+//? To run the program, following commands can be used in the terminal:
+//? 1. Compile the program: javac EmployeeDatabase.java
+//? 2. Run the program: java -cp .:mysql-connector-java-x.x.x.jar EmployeeDatabase
+//? (Replace x.x.x with the version of the MySQL connector you are using.)   [In my case my version is mysql-connector-j-9.2.0]
+//? Make sure to have the MySQL server running and the database and table created before executing the program.
