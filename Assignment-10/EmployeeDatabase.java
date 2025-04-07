@@ -34,7 +34,6 @@ public class EmployeeDatabase {
 
 
 
-
 //? First you need to make a database and a table named "employees" in your MySQL server. In my case I have created a database named "tushar" and a table named "employees".
 //? The table "employees" should have the following structure:
 //? CREATE TABLE employees (
